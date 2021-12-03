@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+#banner{
+    height: 800px;
+    width: 100%;
+    background-image: url("./Rahat_Project/rahat_bg_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#outer{
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#col-1{
+    height: 650px;
+    background-color: blue;
+}
+#col-1 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+#col-2{
+    background-color: rgb(249,249,255);
+    display: grid;
+    grid-template-rows: 40% 60%;
+}
+h1{
+    font-size: 35px;
+}
+#inner-1{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#inner-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.innter-2-inner{
+    background-color: white;
+    height: 140px;
+    border: 1px solid rgb(221,221,221);
+    padding-left: 25px;
+    padding-top: 35px;
+    line-height: 5px;
+}
+
+.innter-2-inner i{
+    font-size: 25px;
+    color: rgb(100,175,228);
+}
+
+#last{
+    background-color: rgb(249,249,255);
+    height: 600px;
+    margin-top: 400px;
+    
+}
+#last-outer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    margin: 0 auto;
+}
+#last-inner-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
